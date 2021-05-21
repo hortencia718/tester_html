@@ -42,7 +42,7 @@ button {
     border: none;
     padding-top: 15px;
     padding-bottom: 15px;
-    color: rgb(192, 238, 54);
+    color: rgb(222, 244, 24);
     font-weight: bold;
     width: 200px;
     margin-bottom: 5px;
@@ -54,5 +54,5 @@ button {
 }
 
 #save-btn {
-    background: rgb(118, 230, 118);
+    background: rgb(118, 204, 230);
 }
