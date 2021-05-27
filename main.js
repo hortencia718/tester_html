@@ -3,6 +3,8 @@
 // let count = 0
 
 //  count =count + 1
+
+
 // let myAge = 49
 // let humanDogRatio =7
 // let myDogAge = myAge * humanDogRatio
@@ -13,26 +15,61 @@
 // increment the count variable when the button is clicked (log it out)
 // change the count-el in the HTML to reflect the new count
 
-
+let saveEL = document.getElementById("save-el") 
 let countEl = document.getElementById("counter-el") //pass an arguments
-console.log(countEl) //works
+let count = 0
 
-  let count = 0
+console.log(saveEl) //works
 
-function increment(){
-    count = count + 1
+
+
+function increment() {
+    count += 1
     countEl.innerText = count
     // console.log("count");
 }
 
-let saveEL = document.getElementById("save-btn") //pass an argument
-console.log(saveEL)
+  // let saveEL = document.getElementById("save-el") //pass an argument
+  // console.log(saveEL)
+
+  
+  function save() {
+    let countStr = count + " - "
+  
+
+    saveEL.innerText = countStr
+
+    console.log(count)
+
+  }
+    // save()
 
 
-function save(){
-console.log(count)
-}
-save()
+
+
+
+
+
+
+//   let username ="per"
+//   let message = "you have three new notifications"
+
+//   let messageToUser = message + ", " + username + "!"
+//   console.log(messageToUser)
+
+
+// let name = "hortencia cisneros"
+// let greeting ="hola, my name is "
+
+// let myGreeting = greeting + ", " + name + "!"
+// let myGreeting = greeting + name
+// console.log(myGreeting)
+
+
+// let points = 4
+// let bonusPoints ="10"
+// let bonusPoints = 4+ 10
+
 
 // function countdown(){
 //     console.log(5)
