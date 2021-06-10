@@ -25,7 +25,7 @@ console.log(saveEl) //works
 
 function increment() {
     count += 1
-    countEl.innerText = count
+    countEl.textContent = count
     // console.log("count");
 }
 
@@ -37,14 +37,15 @@ function increment() {
     let countStr = count + " - "
   
 
-    saveEL.innerText = countStr
-
+    saveEL.textContent = countStr
+    countEl.textContent = 0
+    count = 0
     console.log(count)
 
   }
     // save()
 
-
+// reset the count of poeple to zero after you save the frist count 
 
 
 
